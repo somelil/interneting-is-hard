@@ -87,6 +87,7 @@ p {
 
 .comment {
     margin: 10px;
-    overflow: hidden;D6E9FE
-    /*without the line above, our text would wrap below the avatar, instead of fitting to just its left*/
+    overflow: hidden;
+    background-color: #D6E9FE;
+    /*without the line above, our text would wrap below the avatar, instead of fitting to just its left */
 }
