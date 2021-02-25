@@ -37,6 +37,21 @@
     position: absolute;
     top: 10px;
     left: 10px;
-    /* absolute is used in relation to the browser window, not the item's original position */
-    /* in absolute positioning, the element is not considered to even exist anymore after the position change */
+    /* absolute is used in relation to the browser window, not the item's original position
+    in absolute positioning, the element is not considered to even exist anymore after the position change */
+}
+
+/* coordinates for absolute elements are always relative to the closest container that is a positioned element.
+it will only become relative to the entire webpage if none of the parent elements are positioned */
+
+.absolute {
+    position: relative;
+}
+
+/* fixed positioning items do not scroll along with the rest of the page */
+
+.item-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
